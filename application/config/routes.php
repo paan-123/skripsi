@@ -53,4 +53,5 @@ $route['default_controller'] = 'map';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['map'] = 'Map';
+$route['admin'] = 'Admin';
  

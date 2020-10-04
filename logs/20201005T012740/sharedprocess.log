@@ -1,0 +1,3 @@
+[2020-10-05 01:27:44.227] [sharedprocess] [info] main {"machineId":"425ebe3fd0f33a132cdb3123f6c3872c8e069c9bb806bfdb58e2af476d2e285e","windowId":2}
+[2020-10-05 01:27:44.260] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/var/www/html/skripsi/User/snippets'
+[2020-10-05 01:28:24.242] [sharedprocess] [info] Starting to clean up unused language packs.
