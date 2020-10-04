@@ -23,7 +23,4 @@ class Map extends CI_Controller {
 	public function index(){
 		$this->load->view('map');
     }
-    public function maap(){
-		echo 'map';
-	}
 }
