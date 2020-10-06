@@ -27,10 +27,8 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-project
 /tests/tests/
 /tests/results/
-<<<<<<< HEAD
-=======
 
 #faker
 /application/third_party/faker
 /application/controllers/Dummy.php
->>>>>>> daf2bd3... gitignore
+/application/config/database.php
