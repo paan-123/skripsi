@@ -1,8 +1,6 @@
 <!DOCTYPE html >
   <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <title>Using MySQL and PHP with Google Maps</title>
+    <?php $this->load->view('user/_partials/head.php');?>
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -20,6 +18,9 @@
 
 <html>
   <body>
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <?php $this->load->view('user/_partials/nav.php'); ?>
+  </nav>
     <div id="map"></div>
 
     <script>
