@@ -98,8 +98,6 @@
       function doNothing() {}
     </script>
     <!-- change this api key -->
-    <script defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9M1u_99_dtGU2EPvukSz2UwA544z_C2I&callback=initMap">
-    </script>
+    <!-- <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9M1u_99_dtGU2EPvukSz2UwA544z_C2I&callback=initMap"></script> -->
   </body>
 </html>

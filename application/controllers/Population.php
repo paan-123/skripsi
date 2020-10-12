@@ -54,4 +54,20 @@ class Population extends CI_Controller {
         //load view
         $this->load->view('population', $data);
     }
+
+    public function b(){
+        $result["data"] = json_encode($this->db->get("data_induk")->result());
+        $this->load->view("b",$result);
+    }
+    public function c(){
+        $data = $this->db->get("data_induk")->result();
+        foreach ($data as $l => $d) {
+            $data[$l]->kd_induk = '<a href=\"'.$d->kd_induk.'\">'.$d->kd_induk.'</a>';
+        }
+        $result["data"] =json_encode($data); 
+        // print_r($result);
+        // die();
+        // $result["data"] = json_encode($this->db->get("data_induk")->result());
+        $this->load->view("c",$result);
+    }
 }
