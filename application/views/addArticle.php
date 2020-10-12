@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page4</title>
+    <title>Add Article</title>
     <link rel="icon" type="image/x-icon" href="assets/assets/img/favicon.ico" />
     <link rel="stylesheet" href="assets/bs4.5.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/own.css">
@@ -31,19 +31,29 @@
         </nav>
         <main class="container">
             <div class="row">
-                <h1>Article</h1>
+                <h1>Add Article</h1>
             </div>
             <div class="row" style="justify-content: center;">
-                <?php foreach ($data as $value) : ?>
-                    <div class="card mb-3 col-lg-3 col-md-4 col-sm-1">
-                        <img class="card-img-top mt-3" src="<?= $value->gambar ?>" alt="Card image cap" style="max-height:12rem; object-fit: cover; ">
-                        <div class="card-body">
-                            <h4 class="card-title"><?= $value->judul ?></h4>
-                            <p class="card-text"><?= $value->deskripsi ?></p>
-                            <p class="card-text"><small class="text-muted"><?= $value->tanggal ?></small></p>
+                <form action="addArticle/upload" enctype="multipart/form-data" method="post">
+                    <div class="form-group">
+                        <label>Judul</label>
+                        <input type="text" name="judul" class="form-control" placeholder="Pengajian"></input>
+                    </div>
+                    <div class="form-group">
+                        <label>Textarea</label>
+                        <textarea class="form-control" name="deskripsi" rows="3" placeholder="kegiatan rutin di masjid kami..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputFile">File input</label>
+                        <div class="input-group">
+                            <div class="custom-file">
+                                <input type="file" name="userfile" class="custom-file-input" id="exampleInputFile" accept=".jpg, .jpeg, .png">
+                                <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                            </div>
                         </div>
                     </div>
-                <?php endforeach; ?>
+                    <button type="submit" id="submit" class="btn btn-primary float-right" btn-lg btn-block">Submit</button>
+                </form>
             </div>
         </main>
         <!-- Footer-->
