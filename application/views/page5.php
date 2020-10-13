@@ -19,10 +19,12 @@
                 <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="navbar-collapse collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger Montserrat-700" href="page1">Page 1</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger Montserrat-700" href="page2">Page 2</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger Montserrat-700" href="page3">Page 3</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger Montserrat-700" href="page4">Page 4</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger Montserrat-700" href="page1">Page 1</a></li> -->
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger Montserrat-700" href="page2">Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger Montserrat-700" href="page3">Table</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger Montserrat-700" href="page4">Article</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger Montserrat-700 active" href="page5">Map</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger Montserrat-700" href="addArticle">AddArticle</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger Montserrat-700" href="#footer">About</a></li>
                     </ul>
                 </div>
