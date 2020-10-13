@@ -135,12 +135,6 @@
 
         function doNothing() {}
     </script>
-    <div>
-        <h4></h4>
-        <div class="row">
-            <p class="col"><strong></strong></p>
-        </div>
-    </div>
     <!-- change this api key -->
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9M1u_99_dtGU2EPvukSz2UwA544z_C2I&callback=initMap"></script>
     <script src="assets/fonts/fa-5.15.5/js/all.js"></script>
