@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<?php $this->load->view('manager/_partials/head.php'); ?>
+    <?php $this->load->view('manager/_partials/head.php'); ?>
 </head>
 
 <body class="animsition">
@@ -10,9 +10,9 @@
         <!-- HEADER MOBILE-->
         <header class="header-mobile d-block d-lg-none">
             <?php $this->load->view('manager/_partials/header.php'); ?>
-            <nav class="navbar-mobile"> 
-				<?php $this->load->view('manager/_partials/nav.php'); ?>
-			</nav>
+            <nav class="navbar-mobile">
+                <?php $this->load->view('manager/_partials/nav.php'); ?>
+            </nav>
         </header>
         <!-- END HEADER MOBILE-->
 
@@ -25,7 +25,7 @@
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
-                    <?php $this->load->view('manager/_partials/side_bar.php')?>
+                    <?php $this->load->view('manager/_partials/side_bar.php') ?>
                 </nav>
             </div>
         </aside>
@@ -194,7 +194,7 @@
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__footer">
-                                                <a href="<?php echo base_url('login/logout')?>">
+                                                <a href="<?php echo base_url('login/logout') ?>">
                                                     <i class="zmdi zmdi-power"></i>Logout</a>
                                             </div>
                                         </div>
@@ -209,13 +209,13 @@
 
             <!-- MAIN CONTENT-->
             <div class="main-content">
-                
+
             </div>
         </div>
-	</div>
-	
-	<!-- load all js script -->
-	<?php $this->load->view('manager/_partials/script.php'); ?>
+    </div>
+
+    <!-- load all js script -->
+    <?php $this->load->view('manager/_partials/script.php'); ?>
 
 </body>
 

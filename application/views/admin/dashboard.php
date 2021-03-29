@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<?php $this->load->view('admin/_partials/head.php'); ?>
+    <?php $this->load->view('admin/_partials/head.php'); ?>
 </head>
 
 <body class="animsition">
@@ -10,9 +10,9 @@
         <!-- HEADER MOBILE-->
         <header class="header-mobile d-block d-lg-none">
             <?php $this->load->view('admin/_partials/header.php'); ?>
-            <nav class="navbar-mobile"> 
-				<?php $this->load->view('admin/_partials/nav.php'); ?>
-			</nav>
+            <nav class="navbar-mobile">
+                <?php $this->load->view('admin/_partials/nav.php'); ?>
+            </nav>
         </header>
         <!-- END HEADER MOBILE-->
 
@@ -25,7 +25,7 @@
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
-                    <?php $this->load->view('admin/_partials/side_bar.php')?>
+                    <?php $this->load->view('admin/_partials/side_bar.php') ?>
                 </nav>
             </div>
         </aside>
@@ -194,7 +194,7 @@
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__footer">
-                                                <a href="<?php echo base_url('login/logout')?>">
+                                                <a href="<?php echo base_url('login/logout') ?>">
                                                     <i class="zmdi zmdi-power"></i>Logout</a>
                                             </div>
                                         </div>
@@ -492,7 +492,8 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>26 April, 2018</h3>
+                                            <i class="zmdi zmdi-account-calendar"></i>26 April, 2018
+                                        </h3>
                                         <button class="au-btn-plus">
                                             <i class="zmdi zmdi-plus"></i>
                                         </button>
@@ -562,7 +563,8 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-02.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-comment-text"></i>New Messages</h3>
+                                            <i class="zmdi zmdi-comment-text"></i>New Messages
+                                        </h3>
                                         <button class="au-btn-plus">
                                             <i class="zmdi zmdi-plus"></i>
                                         </button>
@@ -749,10 +751,10 @@
                 </div>
             </div>
         </div>
-	</div>
-	
-	<!-- load all js script -->
-	<?php $this->load->view('admin/_partials/script.php'); ?>
+    </div>
+
+    <!-- load all js script -->
+    <?php $this->load->view('admin/_partials/script.php'); ?>
 
 </body>
 

@@ -13,7 +13,7 @@
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                         </li>
                         <li>
-                            <a href="table.html">
+                            <a href="<?php echo base_url('page/barang'); ?>">
                                 <i class="fas fa-table"></i>Managemen Kriteria</a>
                         </li>
                         <li>
@@ -22,7 +22,7 @@
                         </li>
                         
                         <li>
-                            <a href="table.html">
+                            <a href="<?php echo base_url('page/barang'); ?>">
                                 <i class="fas fa-table"></i>Managemen Barang</a>
                         </li>
 
