@@ -29,7 +29,7 @@
 		<div class="container-login100" style="background-image: url('assets/images/img-01.jpg');">
 			<div class="wrap-login100 p-t-190 p-b-30">
 
-				<form class="login100-form validate-form" action="<?php echo base_url('admin/aksi_login');?>" method="POST">
+				<form class="login100-form validate-form" action="<?php echo base_url('login/auth');?>" method="POST">
 					<div class="login100-form-avatar">
 						<img src="assets/images/avatar-01.jpg" alt="AVATAR">
 					</div>
